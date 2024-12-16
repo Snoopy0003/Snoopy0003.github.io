@@ -1,0 +1,140 @@
+body {
+    font-family: 'Agbalumo';
+    margin: 0;
+    background-color: #5f5958;
+    color: #343a40;
+}
+header {
+    background-color: #6a1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    padding: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.button {
+    font-family: 'Agbalumo';
+    background-color: #6a1f1f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.dish-container {
+    color: #f5f5f5;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 600px;
+    background: #5f5958;
+    border-radius: 8px;
+    padding: 20px;
+}
+.dish-container h2 {
+    margin: 15px 0;
+}
+img{
+    max-width:200px;
+    max-height:200px;
+}
+.calories {
+    font-family: 'Roboto Mono', monospace;
+    color: #343a40;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+.calories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.calories ul li {
+    margin: 5px 0;
+}
+.protein {
+    font-family: 'Roboto Mono', monospace;
+    color: #343a40;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+.protein ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.protein ul li {
+    margin: 5px 0;
+}
+.fat {
+    font-family: 'Roboto Mono', monospace;
+    color: #343a40;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+.fat ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.fat ul li {
+    margin: 5px 0;
+}
+.carbs {
+    font-family: 'Roboto Mono', monospace;
+    color: #343a40;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+.carbs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.carbs ul li {
+    margin: 5px 0;
+}
+
+.instructions {
+    text-align: left;
+    margin: 10px 0;
+}
+
+footer {
+    font-family: 'Agbalumo';
+    background-color: #6a1f1f;
+    color: #ffffff; 
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 30px;
+    margin-top: 200px;
+}
